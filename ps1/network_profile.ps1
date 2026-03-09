@@ -393,10 +393,10 @@ $btnSave.Add_Click({ Save-Config })
 $btnLoad.Add_Click({ Load-Config })
 
 # 기본값
-$txtSubIp.Text = "본인 ip 입력"
-$txtSubMask.Text = "255.255.255.224"
-$txtSubGateway.Text = "10.46.31.65"
-$txtSubDns.Text = "10.1.1.5"
+$txtSubIp.Text = ""
+$txtSubMask.Text = ""
+$txtSubGateway.Text = ""
+$txtSubDns.Text = ""
 
 $chkMainDhcp.Checked = $true
 Load-Config
